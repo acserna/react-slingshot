@@ -31,7 +31,7 @@ jobs:
           keys:
             - "npm-packages"
       - run: npm i
-      - run: npm run audit
+      - run: npm audit
 
 workflows:
   integration:
